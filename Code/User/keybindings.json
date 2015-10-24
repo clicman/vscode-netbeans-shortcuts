@@ -1,0 +1,27 @@
+[
+	{
+		"key": "alt+shift+f",
+		"command": "editor.action.format",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+shift+down",
+		"command": "editor.action.moveLinesDownAction",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+shift+up",
+		"command": "editor.action.moveLinesUpAction",
+		"when": "editorTextFocus"
+	}
+]
