@@ -1,27 +1,32 @@
 [
-	{
-		"key": "alt+shift+f",
-		"command": "editor.action.format",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+down",
-		"command": "editor.action.copyLinesDownAction",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+up",
-		"command": "editor.action.copyLinesUpAction",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+shift+down",
-		"command": "editor.action.moveLinesDownAction",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+shift+up",
-		"command": "editor.action.moveLinesUpAction",
-		"when": "editorTextFocus"
-	}
+    {
+        "key": "alt+shift+f",
+        "command": "editor.action.format",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
 ]
